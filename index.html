@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#13090c">
+  <meta name="description" content="Niam Niam Sushi – sushi Vilniuje. Peržiūrėkite informaciją, susisiekite ir raskite mus Šv. Stepono g. 19.">
+  <title>Niam Niam Sushi | Sushi Vilniuje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#pradzia" aria-label="Niam Niam Sushi – pradžia">
+      <span class="brand-mark">N</span>
+      <span>NIAM NIAM <em>SUSHI</em></span>
+    </a>
+    <nav aria-label="Pagrindinis meniu">
+      <a href="#apie">Apie mus</a>
+      <a href="#galerija">Galerija</a>
+      <a href="#kontaktai">Kontaktai</a>
+    </nav>
+    <a class="nav-call" href="tel:+37066863366">Skambinti</a>
+  </header>
+
+  <main>
+    <section class="hero" id="pradzia">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">SUSHI • VILNIUS</p>
+        <h1>NIAM NIAM<br><span>SUSHI</span></h1>
+        <p class="hero-copy">Atraskite mūsų skonį.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#kontaktai">Rasti mus</a>
+          <a class="button button-outline" href="tel:+37066863366">+370 668 63366</a>
+        </div>
+      </div>
+      <div class="hero-note">ŠV. STEPONO G. 19 · VILNIUS</div>
+    </section>
+
+    <section class="intro section" id="apie">
+      <div class="section-kicker">SVEIKI ATVYKĘ</div>
+      <h2>Jūsų sushi vieta <span>Vilniuje.</span></h2>
+      <p class="intro-text">Užsukite į Niam Niam Sushi. Susisiekite telefonu arba raskite mus adresu Šv. Stepono g. 19, Vilniuje.</p>
+    </section>
+
+    <section class="gallery section" id="galerija">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">PARAGAUTI AKIMIS</div>
+          <h2>Galerija</h2>
+        </div>
+        <p>Čia netrukus atsiras tikros Niam Niam Sushi patiekalų nuotraukos.</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo photo-large">
+          <img src="images/sushi-1.jpg" alt="Niam Niam Sushi patiekalas" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');">
+          <figcaption>NIAM NIAM SUSHI</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="images/sushi-2.jpg" alt="Sushi patiekalas" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');">
+          <figcaption>ŠVIEŽIAS SKONIS</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="images/sushi-3.jpg" alt="Sushi rinkinys" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');">
+          <figcaption>MĖGSTAMI SKONIAI</figcaption>
+        </figure>
+      </div>
+      <p class="photo-tip">Nuotraukas galėsite įkelti į aplanką <strong>images</strong>, pakeisdami failus sushi-1.jpg, sushi-2.jpg ir sushi-3.jpg.</p>
+    </section>
+
+    <section class="contact section" id="kontaktai">
+      <div class="contact-copy">
+        <div class="section-kicker">APSILANKYKITE</div>
+        <h2>Susitikime <span>netrukus.</span></h2>
+        <p>Turite klausimų? Skambinkite mums arba parašykite per WhatsApp.</p>
+        <div class="contact-buttons">
+          <a class="button button-primary" href="tel:+37066863366">Skambinti dabar</a>
+          <a class="button button-outline" href="https://wa.me/37066863366" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div class="details">
+        <div class="detail">
+          <span class="detail-label">ADRESAS</span>
+          <strong>Šv. Stepono g. 19, Vilnius</strong>
+          <a href="https://www.google.com/maps/search/?api=1&query=Sv.+Stepono+g.+19,+Vilnius" target="_blank" rel="noopener">Atidaryti Google Maps ↗</a>
+        </div>
+        <div class="detail">
+          <span class="detail-label">TELEFONAS</span>
+          <a class="detail-phone" href="tel:+37066863366">+370 668 63366</a>
+        </div>
+        <div class="detail">
+          <span class="detail-label">DARBO LAIKAS</span>
+          <div class="hours">
+            <div><span>Pirmadienis</span><b>10:00–21:00</b></div>
+            <div><span>Antradienis</span><b>10:00–21:00</b></div>
+            <div><span>Trečiadienis</span><b>10:00–21:00</b></div>
+            <div><span>Ketvirtadienis</span><b>10:00–21:00</b></div>
+            <div><span>Penktadienis</span><b>10:00–22:00</b></div>
+            <div><span>Šeštadienis</span><b>10:00–22:00</b></div>
+            <div><span>Sekmadienis</span><b>10:00–21:00</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#pradzia"><span class="brand-mark">N</span><span>NIAM NIAM <em>SUSHI</em></span></a>
+    <p>© <span id="year"></span> Niam Niam Sushi. Visos teisės saugomos.</p>
+    <a href="#pradzia">Į viršų ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
