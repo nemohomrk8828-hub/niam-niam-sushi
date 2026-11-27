@@ -25,3 +25,32 @@ padding:14px;
 min-height:0;
 }
 }
+/* MOBILE FIX */
+@media (max-width: 760px) {
+  .dish-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .dish {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .dish img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1.48 !important;
+    object-fit: cover !important;
+  }
+
+  .dish-info {
+    display: grid !important;
+    grid-template-columns: 1fr auto !important;
+    padding: 14px !important;
+  }
+
+  .dish p {
+    min-height: 0 !important;
+  }
+}
